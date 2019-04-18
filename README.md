@@ -2,15 +2,17 @@
 
 [DEMO](https://aprather51.github.io/simple-react-modal)
 
-Simple React modal using ternary operator fetching `show` as `props`.
+Simple React modal using ternary operator fetching `props`(`show`).
 
 ```js
   const showHideClassName = show ? 'modal show' : 'modal hide';
 
   return (
     <div className={showHideClassName}>
+      ...
+    </div>
 ```
-and css transition inserted into `className` to generate effects.
+`css` transition inserted into `className` to generate effects.
 ```css
 transition: all 100ms 100ms ease-in-out;
 ```
