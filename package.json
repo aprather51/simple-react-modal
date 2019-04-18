@@ -1,15 +1,17 @@
 {
     "name": "simple-react-modal",
     "version": "1.0.0",
+    "private": true,
     "description": "React modal with css fade in/out transition.",
     "homepage": "https://aprather51.github.io/simple-react-modal",
     "keywords": [],
     "main": "src/index.js",
+    "license": "MIT",
     "dependencies": {
         "gh-pages": "^2.0.1",
-        "react": "16.5.2",
-        "react-dom": "16.5.2",
-        "react-scripts": "2.0.3"
+        "react": "16.8.6",
+        "react-dom": "16.8.6",
+        "react-scripts": "2.1.8"
     },
     "devDependencies": {},
     "scripts": {
@@ -17,7 +19,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
-        "deploy": "yarn build && yarn gh-pages"
+        "deploy": "yarn build && gh-pages -d build"
     },
     "browserslist": [
         ">0.2%",
