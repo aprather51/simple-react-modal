@@ -1,49 +1,59 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+	font-family: sans-serif;
+	text-align: center;
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  width: 60px;
-  cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
 }
 
 .open {
-  background-color: dodgerblue;
-  color: white;
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
 }
 
 .close {
-  display: flex;
-  background-color: lightcoral;
-  color: white;
+	display: flex;
+	background-color: lightcoral;
+	color: white;
+	border-radius: 50%;
+	text-transform: uppercase;
 }
 
 .modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  transition: all 100ms 100ms ease-in-out;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	transition: all 100ms 100ms ease-in-out;
 }
 
 .modal-main {
-  color: white;
+	color: white;
 }
 
 .show {
-  visibility: visible;
-  opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 
 .hide {
-  visibility: hidden;
-  opacity: 0;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
 }
